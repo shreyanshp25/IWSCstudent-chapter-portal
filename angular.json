@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "iwsc-scp"
+  "defaultProject": "iwsc-scp",
+  "cli": {
+    "analytics": "18c76714-0c36-4d1d-8eb5-4ffa301f862f"
+  }
 }
