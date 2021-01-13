@@ -1,0 +1,74 @@
+/*----------SMALL SCREENS----------*/
+@media only screen and (max-width: 698px){
+    /*-----WALLPAPER----------*/
+    .wallpaper{
+        background-position: center;
+        background-size: contain;
+        background-attachment: fixed;
+    } 
+    /*-----------H1-------------*/
+    h1{
+        padding-top: 1.4%;
+        padding-bottom: 1.4%;
+        border-bottom: 2px solid gray;
+    }
+    /*-------H4---------------*/
+    h4{
+        padding-left: 1.2%;
+        padding-bottom: 1.2%;
+        color: #7a97a3;
+    }
+    /*---------ABOUT US-----------*/
+    .about{
+        background-color: #07a0de75;
+    }
+    .aboutUs{
+        box-shadow: inset 0px 6px 7px 10px #4c7c90;
+
+    }
+    /*-------STUDENT CHAPTERS-----*/
+    .table a{
+        text-decoration: none;
+        color: black;
+    }
+      
+}
+
+/*-----------BIG SCREENS-----------*/
+@media only screen and (min-width: 700px){
+    /*-----WALLPAPER----------*/
+    .wallpaper{
+        background-position: center;
+        background-size: contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 532px;
+        object-position: 50% 50%;
+        object-fit: cover;
+    } 
+    /*-----------H1-------------*/
+    h1{
+        padding-top: 1.4%;
+        padding-bottom: 1.4%;
+        border-bottom: 2px solid gray;
+    }
+    /*-------H4---------------*/
+    h4{
+        padding-left: 1.2%;
+        padding-bottom: 1.2%;
+        color: #7a97a3;
+    }
+    /*---------ABOUT US-----------*/
+    .about{
+        background-color: #07a0de75;
+    }
+    .aboutUs{
+        box-shadow: inset 0px 6px 7px 10px #4c7c90;
+    }
+    /*-------STUDENT CHAPTERS-----*/
+    .table a{
+        text-decoration: none;
+        color: black;
+    }
+ 
+}
