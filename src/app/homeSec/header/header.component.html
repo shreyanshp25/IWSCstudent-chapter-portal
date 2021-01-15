@@ -1,7 +1,7 @@
 <!-------NAVBAR------->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">IWSC</a>
+        <a class="navbar-brand" routerLink="home">IWSC</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,73 +9,15 @@
         <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" routerLink="studentchapters">Student Chapeters</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#AboutUs">About Us</a>
+                    <a class="nav-link">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#stuChp">Student Chapters</a>
+                    <a class="nav-link" href="#stuChp">login</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<!-------WALLPAPER------>
-<img src="assets/images/logo.png" class="img-fluid wallpaper" alt="iwsc">
-
-<!---SECTION 1: ABOUT US------>
-<section class="about">
-    <div class="container aboutUs">
-        <h1 class="text-center"><a name="AboutUs">ABOUT US</a></h1>
-        <p class="text-center">{{ about }}</p>
-    </div>
-</section>
-<!--------STUDENT CHAPTERS----->
-<section class="studentChapters">
-    <div class="container">
-        <h1 class="text-center"><a name="stuChp">Student Chapters</a></h1>
-        <!--EXISTING STUDENT CHAPTERS--->
-        <h4 class="text-center">Existing Student Chapters</h4>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th scope="col">S.No</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Since</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td><a href="#">{{ studentChapterName[0] }}</a></td>
-                    <td>{{ studentChapterSince[0] }}</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td><a href="#">{{ studentChapterName[1] }}</a></td>
-                    <td>{{ studentChapterSince[1] }}</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td><a href="#">{{ studentChapterName[2] }}</a></td>
-                    <td>{{ studentChapterSince[2] }}</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td><a href="#">{{ studentChapterName[3] }}</a></td>
-                    <td>{{ studentChapterSince[3] }}</td>
-                </tr>
-            </tbody>
-        </table>
-        <!--INITIATE NEW CHAPTER--->
-        <h4 class="text-center">Initiate New SC</h4>
-        <div class="card text-center col-md-12">
-            <div class="card-body">
-                <h5 class="card-title">Welcome to IWSC Family</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Initiate</a>
-            </div>
-        </div>
-    </div>
-</section>
