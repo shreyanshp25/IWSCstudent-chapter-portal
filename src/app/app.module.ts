@@ -17,11 +17,8 @@ import { NewScFormComponent } from './homeSec/new-sc-form/new-sc-form.component'
     HeaderComponent,
     routingComponents,
     FooterComponent,
-    AboutUsComponent,
-    ScComponent,
     NewScFormComponent
   ],
-  //entryComponents : [],
   imports: [
     BrowserModule,
     AppRoutingModule,
