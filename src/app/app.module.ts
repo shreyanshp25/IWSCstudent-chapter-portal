@@ -7,6 +7,8 @@ import { HeaderComponent } from './homeSec/header/header.component';
 import { MaterialModule } from './material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './homeSec/footer/footer.component';
+import { AboutUsComponent } from './homeSec/about-us/about-us.component';
+import { ScComponent } from './homeSec/sc/sc.component';
 import { NewScFormComponent } from './homeSec/new-sc-form/new-sc-form.component';
 
 @NgModule({
@@ -15,8 +17,11 @@ import { NewScFormComponent } from './homeSec/new-sc-form/new-sc-form.component'
     HeaderComponent,
     routingComponents,
     FooterComponent,
+    AboutUsComponent,
+    ScComponent,
+    NewScFormComponent
   ],
-  entryComponents : [NewScFormComponent],
+  //entryComponents : [],
   imports: [
     BrowserModule,
     AppRoutingModule,
