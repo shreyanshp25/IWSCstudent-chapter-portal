@@ -1,0 +1,81 @@
+/*-----------mobile view----------*/
+@media only screen and (max-width: 900px){
+    .logo{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto -32px;
+        padding: 48px 0 0;
+    }
+    .textBox{
+        line-height: 3rem;
+        font-size: 2.2rem;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .home{
+        background-color: black;
+        color: #ffffffa8;
+    }
+}
+/*-------------big screen---------*/
+@media only screen and (min-width: 901px){
+    /* .intro{
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 65rem solid #97e9ff00;
+        border-top: 10rem solid #97e9ff;
+        top: 45.4%;
+    } */
+    .home{
+        height: 438px;
+        background-color: black;
+        color: #ffffffa8;
+        
+    }
+    .logo{
+        display: flex;
+        position: relative;
+        margin-bottom: 8px;
+        padding-left: 24%;
+        padding-top: 8%;
+    }
+    .textBox{
+        margin: -207px 53% 0px;
+        font-size: 3rem;
+        line-height: 3.2rem;
+        font-weight: 500;
+    }
+}
+
+/*--------BIG LAPTOP SCREENS----*/
+@media only screen and (min-width: 1200px){
+    /* .intro{
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 65rem solid #97e9ff00;
+        border-top: 10rem solid #97e9ff;
+        top: 45.4%;
+    } */
+    .home{
+        height: 438px;
+        background-color: black;
+        color: #ffffffa8;
+        
+    }
+    .logo{
+        display: flex;
+        position: relative;
+        margin-bottom: 8px;
+        padding-left: 30%;
+        padding-top: 8%;
+    }
+    .textBox{
+        margin: -207px 51% 0px;
+        font-size: 3rem;
+        line-height: 3.2rem;
+        font-weight: 500;
+    }
+}
