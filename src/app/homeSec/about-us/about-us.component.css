@@ -22,6 +22,11 @@
         background-color: #07a0de;
         border-radius: 16px;
     }
+    h1{
+        padding: 1.8%;
+        border-bottom: 2px solid  #221b1bcf;
+        color: #221b1bcf;
+    }
 }
 /*-------------big screen---------*/
 @media only screen and (min-width: 901px){
@@ -61,6 +66,11 @@
         position: absolute;
         left: 92%;
         top: 0.6%;
+    }
+    h1{
+        padding: 1.8%;
+        border-bottom: 2px solid  #221b1bcf;
+        color: #221b1bcf;
     }
 }
 
@@ -102,5 +112,10 @@
         position: absolute;
         left: 94.6%;
         top: 0.6%;
+    }
+    h1{
+        padding: 1.8%;
+        border-bottom: 2px solid  #221b1bcf;
+        color: #221b1bcf;
     }
 }
