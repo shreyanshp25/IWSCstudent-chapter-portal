@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import {MatTableDataSource} from '@angular/material/table';
 import {MatDialog} from '@angular/material/dialog';
 import { NewScFormComponent } from '../new-sc-form/new-sc-form.component';
-import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 export interface PeriodicElement {

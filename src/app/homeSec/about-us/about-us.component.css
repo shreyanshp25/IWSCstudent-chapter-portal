@@ -17,6 +17,11 @@
         background-color: black;
         color: #ffffffa8;
     }
+    .btn{
+        color: #a6a6a6;
+        background-color: #07a0de;
+        border-radius: 16px;
+    }
 }
 /*-------------big screen---------*/
 @media only screen and (min-width: 901px){
@@ -46,6 +51,16 @@
         font-size: 3rem;
         line-height: 3.2rem;
         font-weight: 500;
+    }
+    .btn{
+        color: #a6a6a6;
+        background-color: #07a0de;
+        border-radius: 16px;
+    }
+    .button{
+        position: absolute;
+        left: 92%;
+        top: 0.6%;
     }
 }
 
@@ -77,5 +92,15 @@
         font-size: 3rem;
         line-height: 3.2rem;
         font-weight: 500;
+    }
+    .btn{
+        color: #a6a6a6;
+        background-color: #07a0de;
+        border-radius: 16px;
+    }
+    .button{
+        position: absolute;
+        left: 94.6%;
+        top: 0.6%;
     }
 }
