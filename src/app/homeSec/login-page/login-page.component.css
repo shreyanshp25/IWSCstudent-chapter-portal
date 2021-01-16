@@ -1,0 +1,74 @@
+/*-----------mobile view----------*/
+@media only screen and (max-width: 767px){
+    .home{
+        background-color: white;
+        height: 400px;
+        width: 100%;
+    }
+    .logo{
+        padding-top: 4%;
+    }
+    .container{
+        box-shadow: inset 0px 6px 5px 7px #80808082;
+    }
+    .fieldBox{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    /* .mat-form-field{
+        display: block;
+    }*/
+    .btn{
+        width: 68%;
+    } 
+    
+ 
+}
+/*-------------big screen---------*/
+@media only screen and (min-width: 768px){
+    
+    .home{
+        background-color: white;
+        height: 520px;
+        width: 100%;
+    }
+    .logo{
+        padding-top: 4%;
+    }
+    .container{
+        box-shadow: inset 0px 6px 5px 7px #80808082;
+        width: 66%;
+        height: 85%;
+    }
+    .fieldBox{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+}
+
+/*--------BIG LAPTOP SCREENS----*/
+@media only screen and (min-width: 1024px){
+    
+   
+    .home{
+        background-color: white;
+        height: 620px;
+        width: 100%;
+    }
+    .logo{
+        padding-top: 4%;
+    }
+    .container{
+        box-shadow: inset 0px 6px 5px 7px #80808082;
+        width: 66%;
+        height: 85%;
+    }
+    .fieldBox{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+}
