@@ -1,6 +1,14 @@
+/*----------SMALL SCREEN----------------*/
+@media only screen and(max-width: 576px){
 
-/*team dashboard start-------------------------------------------------------------------------  */
-h1 #team{
-    text-align: center;
 }
-/*team dashboard start-------------------------------------------------------------------------  */
+/*----------MEDIUM SCREEN----------------*/
+@media only screen and(max-width: 768px){
+
+}
+/*----------LARGE SCEEN-------------------*/
+@media only screen and(min-width: 992PX){
+    
+}
+
+
