@@ -12,6 +12,8 @@ import { ScComponent } from './homeSec/sc/sc.component';
 import { NewScFormComponent } from './homeSec/new-sc-form/new-sc-form.component';
 import { CarouselComponent } from './Team/carousel/carousel.component';
 import { TeamStatsComponent } from './Team/team-stats/team-stats.component';
+import { TeamComponent } from './Team/team/team.component';
+import { MembersComponent } from './Members/members/members.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { TeamStatsComponent } from './Team/team-stats/team-stats.component';
     NewScFormComponent,
     CarouselComponent,
     TeamStatsComponent,
+    TeamComponent,
+    MembersComponent,
   ],
   imports: [
     BrowserModule,

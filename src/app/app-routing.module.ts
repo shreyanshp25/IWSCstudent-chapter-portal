@@ -3,12 +3,16 @@ import { Routes, RouterModule } from '@angular/router';
 import { AboutUsComponent } from './homeSec/about-us/about-us.component';
 import { LoginPageComponent } from './homeSec/login-page/login-page.component';
 import { ScComponent } from './homeSec/sc/sc.component';
+import { TeamComponent } from './Team/team/team.component';
+import { MembersComponent } from './Members/members/members.component'
 
 
 const routes: Routes = [
   {path: 'home', component:AboutUsComponent},
   {path: 'studentchapters', component: ScComponent},
-  {path: 'login-page', component: LoginPageComponent}
+  {path: 'login-page', component: LoginPageComponent},
+  {path: 'teams', component: TeamComponent},
+  {path: 'members', component: MembersComponent}
 ];
 
 @NgModule({
