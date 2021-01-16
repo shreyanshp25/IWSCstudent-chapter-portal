@@ -10,6 +10,8 @@ import { FooterComponent } from './homeSec/footer/footer.component';
 import { AboutUsComponent } from './homeSec/about-us/about-us.component';
 import { ScComponent } from './homeSec/sc/sc.component';
 import { NewScFormComponent } from './homeSec/new-sc-form/new-sc-form.component';
+import { CarouselComponent } from './Team/carousel/carousel.component';
+import { TeamStatsComponent } from './Team/team-stats/team-stats.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { NewScFormComponent } from './homeSec/new-sc-form/new-sc-form.component'
     routingComponents,
     FooterComponent,
     NewScFormComponent,
+    CarouselComponent,
+    TeamStatsComponent,
   ],
   imports: [
     BrowserModule,

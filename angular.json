@@ -128,6 +128,10 @@
   },
   "defaultProject": "iwsc-scp",
   "cli": {
+<<<<<<< HEAD
     "analytics": "3bed6362-dc54-4224-bfc0-9a14ab24ff10"
+=======
+    "analytics": "ba193c81-d5d1-48be-9c10-98b27b0d3c42"
+>>>>>>> pranjay
   }
 }
