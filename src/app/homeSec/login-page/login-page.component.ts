@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
 import { NewScFormComponent } from '../new-sc-form/new-sc-form.component';
+import { SignupComponent } from '../signup/signup.component';
 
 @Component({
   selector: 'app-login-page',
@@ -15,6 +16,6 @@ export class LoginPageComponent implements OnInit {
   }
   //openDialog--
   openDialog(){
-    this.dialog.open(NewScFormComponent);
+    this.dialog.open(SignupComponent);
   }
 }

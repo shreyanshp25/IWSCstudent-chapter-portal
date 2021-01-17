@@ -14,6 +14,7 @@ import { CarouselComponent } from './Team/carousel/carousel.component';
 import { TeamStatsComponent } from './Team/team-stats/team-stats.component';
 import { TeamComponent } from './Team/team/team.component';
 import { MembersComponent } from './Members/members/members.component';
+import { SignupComponent } from './homeSec/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MembersComponent } from './Members/members/members.component';
     TeamStatsComponent,
     TeamComponent,
     MembersComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
