@@ -3,8 +3,22 @@ hr{
 }
 
 /* team strength ------------------------------------------- */
+#title1{
+    text-align: center;
+    font-size: 200%;
+    font-family: Montserrat,Helvetica,sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgba(240, 239, 239, 0.69);
+}
+.jumbotron .heading1{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 10%;
+  }
+
 .jumbotron{
-    padding:5rem;
+    padding:4rem;
     border-radius: 1px;
     background-color: rgba(0, 0, 0);
     
@@ -28,7 +42,7 @@ hr{
 
 
 /* team structure ----------------------------------------- */
-#titleh2{
+#title2{
     text-align: center;
     font-size: 200%;
     font-family: Montserrat,Helvetica,sans-serif;
@@ -47,8 +61,10 @@ hr{
 .card img{
     width:auto;
     height:15rem;
-    border-radius: 50%;
+    border-radius:50%;
     padding: 2%;
+    background-color: rgb(253, 53, 93);
+    /* rgb(0, 123, 255,.5); */
 }
 .card-body .card-title {
     text-align: center;
