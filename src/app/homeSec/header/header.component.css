@@ -1,12 +1,4 @@
-/*----------SMALL SCREENS----------*/
-@media only screen and (max-width: 698px){
-   
-    
-      
-}
-
-/*-----------BIG SCREENS-----------*/
-@media only screen and (min-width: 700px){
-    
- 
+li :hover {
+    background-color: #ffffff4a;
+    border-radius: 5%;
 }

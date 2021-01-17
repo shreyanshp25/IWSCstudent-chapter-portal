@@ -21,6 +21,7 @@
         color: #a6a6a6;
         background-color: #07a0de;
         border-radius: 16px;
+        margin-bottom: 4%;
     }
     h1{
         padding: 1.8%;
@@ -65,7 +66,7 @@
     .button{
         position: absolute;
         left: 92%;
-        top: 0.6%;
+        top: 0.8%;
     }
     h1{
         padding: 1.8%;
@@ -111,7 +112,7 @@
     .button{
         position: absolute;
         left: 94.6%;
-        top: 0.6%;
+        top: 1%;
     }
     h1{
         padding: 1.8%;
