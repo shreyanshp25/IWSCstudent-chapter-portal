@@ -5,23 +5,21 @@ hr{
 /* team strength ------------------------------------------- */
 #title1{
     text-align: center;
-    font-size: 200%;
-    font-family: Montserrat,Helvetica,sans-serif;
     font-size: 3rem;
+    font-family: Montserrat,Helvetica,sans-serif;
     font-weight: 600;
     color: rgba(240, 239, 239, 0.69);
+    margin-top: 3%;
 }
-.jumbotron .heading1{
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-    height: 10%;
+.heading1{
+    padding:2%;
+    background-color: rgba(0,0,0);
   }
 
 .jumbotron{
     padding:4rem;
     border-radius: 1px;
-    background-color: rgba(0, 0, 0);
-    
+    background-color: rgba(0, 0, 0); 
   }
   .value{
       
@@ -44,12 +42,13 @@ hr{
 /* team structure ----------------------------------------- */
 #title2{
     text-align: center;
-    font-size: 200%;
     font-family: Montserrat,Helvetica,sans-serif;
     font-size: 3rem;
     font-weight: 600;
     color: rgba(0,0,0,.69);
-    text-align: center;
+    line-height: 35px;
+    margin: 3% 0% 2% 0%;
+    
 }
 .img-align-fix{
     text-align: center;
@@ -63,7 +62,7 @@ hr{
     height:15rem;
     border-radius:50%;
     padding: 2%;
-    background-color: rgb(253, 53, 93);
+    background-color: rgb(0, 123, 255,.5);
     /* rgb(0, 123, 255,.5); */
 }
 .card-body .card-title {
@@ -102,6 +101,23 @@ hr{
         margin-left: 5%;
         margin-top: 10%;
     }
+
+    /* jumbotron team strength ------------------- */
+    #title1{
+        font-size: 280%;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .jumbotron h3{
+        font-size: 150%;
+        font-weight: 600;
+        line-height: 30px;
+        }
+        
+    .jumbotron{
+        padding:3rem;
+      }
     
      
    }
@@ -119,6 +135,52 @@ hr{
         margin-left: 5%;
         margin-top: 10%;
     }
+
+    /* jumbotron team strength---------------- */
+    #title1{
+        font-size: 250%;
+        font-weight: 500;
+        line-height: 35px;
+        padding:0px;
+        margin-bottom: 3px;
+    }
+    
+    .heading1{
+        padding:1%;
+      }
+    
+    .jumbotron{
+        padding:2rem;
+        border-radius: 1px;
+        background-color: rgba(0, 0, 0);
+      }
+      .value{
+          font-size: 400%;
+      }
+      #ts .value{
+          padding: 2%;
+          background-color: rgb(253, 53, 93);
+          border-radius: 30%;
+
+      }
+      .jumbotron h3{
+          font-size: 150%;
+          font-weight: 500;
+          line-height: 35px;
+          margin-bottom: 40px;
+          }
+      .load{
+              text-align: center;
+          }
+
+          /* team structure------------ */
+    
+       #title2{
+        font-size: 250%;
+        font-weight: 500;
+        line-height: 35px;
+        }
+
      
    }
 
