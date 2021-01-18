@@ -9,7 +9,7 @@ table {
     width: 100%;
   }
  .newSc{
-    width: 102%;
+    width: 100%;
     margin-top: 2.5%;
  }
  .firstRow{
@@ -21,6 +21,9 @@ table {
     color: #3c3535d9;
     padding-top: 1.4%;
     margin-bottom: -1.8px;
+}
+mat-form-field{
+   margin-left: 2%;
 }
 
   
