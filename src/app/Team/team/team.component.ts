@@ -18,10 +18,13 @@ export class TeamComponent implements OnInit {
       var current = start;
       var increment = end > start? 1 : -1;
       var stepTime = Math.abs(Math.floor(duration / range));
-      var obj = document.getElementById(id);
+      var obj:any = document.getElementById(id);
       var timer = setInterval(function() {
           current += increment;
-          obj.innerHTML = current;
+       obj.innerHTML = current;
+          
+          
+          
           if (current == end) {
               clearInterval(timer);
           }
