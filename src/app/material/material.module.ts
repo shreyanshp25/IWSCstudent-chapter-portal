@@ -5,6 +5,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatStepperModule} from '@angular/material/stepper';
 import { ReactiveFormsModule } from '@angular/forms';
+import {MatBadgeModule} from '@angular/material/badge';
 
 
 @NgModule({
@@ -14,7 +15,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatInputModule, 
     MatDialogModule, 
     MatStepperModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatBadgeModule
   ],
 })
+
+
 export class MaterialModule { }
