@@ -6,6 +6,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatStepperModule} from '@angular/material/stepper';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatBadgeModule} from '@angular/material/badge';
+import {MatTabsModule} from '@angular/material/tabs';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import {MatBadgeModule} from '@angular/material/badge';
     MatDialogModule, 
     MatStepperModule,
     ReactiveFormsModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatTabsModule
   ],
 })
 
