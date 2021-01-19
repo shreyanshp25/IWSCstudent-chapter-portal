@@ -21,7 +21,7 @@
 /** banner section **/
 
 .banner_main {
-    padding: 60px 0 20px 0;
+    padding: 40px 0 20px 0;
 }
 
 .text-bg {
@@ -68,10 +68,78 @@
     position: inherit;
 }
 
-
-
 /** end banner section **/
+@media (max-width: 768px){
+    .banner_main {
+        padding: 30px 0 20px 0;
+    }
+    .text-bg h1 {
+        font-size: 60px;
+        padding-bottom: 15px;
+        font-weight: 600;
+    }
+
+    .banner_main {
+        padding: 30px 0 20px 0;
+    }
+}
+
+@media (max-width: 576px){
+.banner_main {
+        padding: 25px 0 20px 0;
+    }
+    
+.header {
+    width: 100%;
+    padding: 30px 20px;
+    background: url(../../../assets/img/hearder.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.white_bg {
+    background: #fff;
+    border-radius: 50px;
+    opacity: 0.9;
+    padding: 5px 5px;
+    margin-left: 1px;
+    height: 80vh;
+}
+    .text-bg span {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 20px;
+    }
 
 
+    .text-bg {
+        text-align: left;
+    }
+    
+    .text-bg span {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .text-bg h1 {
+        color: #050505;
+        font-size: 45px;
+        line-height: 70px;
+        padding-bottom: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .text-bg p {
+        line-height: 28px;
+        padding-bottom: 25px;
+        display: block;
+        color: #1f1f1f;
+        font-size: 17px;
+    }
+    
+}
 
 
