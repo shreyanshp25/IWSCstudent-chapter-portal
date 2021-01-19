@@ -15,6 +15,7 @@ import { TeamStatsComponent } from './Team/team-stats/team-stats.component';
 import { TeamComponent } from './Team/team/team.component';
 import { MembersComponent } from './Members/members/members.component';
 import { SignupComponent } from './homeSec/signup/signup.component';
+import { EventsComponent } from './Team/events/events.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { SignupComponent } from './homeSec/signup/signup.component';
     TeamComponent,
     MembersComponent,
     SignupComponent,
+    EventsComponent,
   ],
   imports: [
     BrowserModule,
