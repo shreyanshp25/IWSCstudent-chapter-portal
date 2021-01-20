@@ -1,6 +1,10 @@
 hr{
     font-weight: bold;
 }
+/* css animation */
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+  
 
 /* team strength ------------------------------------------- */
 #title1{
@@ -103,6 +107,7 @@ hr{
   {
    position: absolute;;
    max-width: 100vw;
+   
     left: 0;
     bottom: 0;
   }
