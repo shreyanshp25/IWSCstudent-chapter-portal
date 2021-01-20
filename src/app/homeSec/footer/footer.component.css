@@ -1,3 +1,7 @@
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
 footer{
     background-color: #3f3f3f;
     color: #d5d5d5;
@@ -44,7 +48,7 @@ ul.social_icon li {
 }
 
 ul.social_icon li a {
-    color: #180552;
+    color: black;
     width: 40px;
     height: 40px;
     background: #fff;
@@ -57,10 +61,11 @@ ul.social_icon li a {
 
 ul.social_icon li a:hover {
     background: #007aff;
-    color: #000;
+    color: white;
 }
 
 ul.link_icon li {
+    float:left;
     display: relative;
     margin-bottom: 17px;
     flex-wrap: wrap;

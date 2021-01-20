@@ -17,6 +17,7 @@ import { MembersComponent } from './Members/members/members.component';
 import { SignupComponent } from './homeSec/signup/signup.component';
 import { EventsComponent } from './Team/events/events.component';
 import { SocialmediaComponent } from './Team/socialmedia/socialmedia.component';
+import { SocialCarouselComponent } from './Team/social-carousel/social-carousel.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { SocialmediaComponent } from './Team/socialmedia/socialmedia.component';
     SignupComponent,
     EventsComponent,
     SocialmediaComponent,
+    SocialCarouselComponent,
   ],
   imports: [
     BrowserModule,
