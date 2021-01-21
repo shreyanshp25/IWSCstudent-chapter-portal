@@ -2,3 +2,6 @@ li :hover {
     background-color: #ffffff4a;
     border-radius: 5%;
 }
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+  
