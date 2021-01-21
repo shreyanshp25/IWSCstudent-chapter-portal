@@ -13,20 +13,79 @@
     </div>
     <!--<div class="intro"></div>-->
 </section>
-<!--SECTION 2: TESTIMONY-->
-<section class="testimony">
+
+<!--SECTION 2: PROJECTS-->
+<section class="projectSection">
     <div class="container">
-        <h1 class="text-center">Testimony</h1>
-        <div class="container">
-            <img src="assets/images/customer-1.jpg" alt="Avatar" style="width:90px">
-            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
-            <p>John Doe saved us from a web disaster.</p>
-          </div>
-          
-          <div class="container">
-            <img src="assets/images/customer-2.jpg" alt="Avatar" style="width:90px">
-            <p><span>Rebecca Flex.</span> CEO at Company.</p>
-            <p>No one is better than John Doe.</p>
-          </div>
+        <h1 class="text-center">PROJECTS</h1>
+        <div class="row">
+            <div class="col-sm-4 d-flex justify-content-center">
+                <div class="projects">
+                    <img src="assets/images/prjoject1.png" width="92%" height="58%" class="image">
+                    <div class="overlay">
+                        <div class="text">Grapido</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <div class="projects">
+                    <img src="assets/images/project2.png" width="92%" height="58%" class="image">
+                    <div class="overlay">
+                        <div class="text">SRM-Pedia</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <div class="projects">
+                    <img src="assets/images/logo.png" width="92%" height="58%" class="image">
+                    <div class="overlay">
+                        <div class="text">SwiftCare</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
+<!---SECTION 3: MAP VIEW-->
+<section class="mapView">
+    <div class="container mapCont">
+        <h1 class="text-center">OUR STUDENT CHAPTERS</h1>
+        <div class="scMap d-flex justify-content-center">
+            <figure class="mapImg">
+                <img src="assets/images/Map Pop.gif"alt="studentchapters map view"class="mapGif">
+            </figure>
+        </div>
+    </div>
+</section>
+
+<!-- APPLY FOR INTERNSHIP-->
+<section  class="internSec">
+    <div class="container">
+        <h1 class="text-center">INTERNSHIP DOMAINS</h1>
+        <app-internship></app-internship>
+    </div>
+</section>
+
+<!--GRAPIDO SECTION---->
+<section class="grapidoSection">
+    <div class="container">
+        <h1 class="text-center">WHAT IS GRAPIDO</h1>
+        <div class="grapidoSec">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <img src="assets/images/prjoject1.png"class="grapidoImg"alt="Grapido">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <article class="heading">
+                    {{grapDes}}
+                </article>  
+            </div>
+        </div>
+        </div>
+    </div>
+</section> 
+
+<app-footer></app-footer>

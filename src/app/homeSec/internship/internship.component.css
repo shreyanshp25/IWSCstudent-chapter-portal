@@ -1,0 +1,91 @@
+/*-----SMALL SCREEN----------*/
+@media only screen and (max-width: 900px){
+    .example-small-box, .example-large-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 16px;
+        padding: 16px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 9px 9px #a19b9bba;
+      }    
+      .example-large-box :hover{
+        transform: rotateZ(360deg);
+        transition: transform 1s ease;
+    }    
+      .example-large-box {
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        background-color: #07a0de80;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+        font-weight: 900;
+      }   
+      .dom1{
+        background-image: url("src/assets/img/web dev.png");
+      }
+      .dom2{
+        background-image: url("src/assets/img/hr.png");
+      }
+      .dom3{
+        background-image: url("src/assets/img/web dev.png");
+      }
+      .dom4{
+        background-image: url("src/assets/img/app dev.png");
+      }
+
+
+}
+
+/*-----BIG SCREEN--------*/
+@media only screen and (min-width: 901px){
+    .example-small-box, .example-large-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 16px;
+        padding: 16px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 9px 9px #a19b9bba;
+      }  
+      .example-large-box :hover{
+          transform: rotateZ(360deg);
+          transition: transform 1s ease;
+      }    
+      .example-large-box {
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        background-color: #07a0de80;
+      } 
+      a{
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+        font-weight: 900;
+      }  
+      .dom1{
+        background-image: url("src/assets/img/web dev.png");
+      }
+      .dom2{
+        background-image: url("src/assets/img/hr.png");
+      }
+      .dom3{
+        background-image: url("src/assets/img/web dev.png");
+      }
+      .dom4{
+        background-image: url("src/assets/img/app dev.png");
+      }
+
+}
+
