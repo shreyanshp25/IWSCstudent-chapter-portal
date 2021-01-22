@@ -11,8 +11,8 @@ body{
   text-align: center;
   font-size: 3rem;
   font-family: Montserrat,Helvetica,sans-serif;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
  z-index: 10;
  padding: 4%;
 }
@@ -24,7 +24,7 @@ body{
   font-size: 6rem;
   font-family: Montserrat,Helvetica,sans-serif;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   z-index: 10;
 }
 
@@ -221,12 +221,12 @@ body{
   @media (max-width: 990px){
     .title1{
       font-size: 2.5rem;
-      font-weight: 500;
+      font-weight: 600;
     }
     
     .heading-bold{
       font-size: 4.5rem;
-     font-weight: 300;
+     font-weight: 400;
     }
     
     .flexcard {
@@ -251,12 +251,12 @@ body{
   @media (max-width: 768px){
     .title1{
       font-size: 2rem;
-      font-weight: 500;
+      font-weight: 600;
     }
     
     .heading-bold{
       font-size: 3.5rem;
-     font-weight: 300;
+     font-weight: 400;
     }
 
   }
@@ -265,7 +265,7 @@ body{
 
     .title1{
       font-size: 2rem;
-      font-weight: 500;
+      font-weight: 600;
     }
     .heading-bold{
       display: none;
@@ -273,8 +273,9 @@ body{
     
     .heading-bold2{
       display:block ;
-      font-size: 2.5rem;
-      font-weight: 350;
+      font-size: 2.8rem;
+      font-weight: 400;
+      color:rgba(255, 255, 255, 0.7);
       text-align: center;
     }
 
@@ -289,15 +290,17 @@ body{
 
     .read_more{
       padding: 5px;
-      background-color: rgba(255, 0, 0, 0.5);
+      background-color: rgba(255, 255, 255, 0.7);
       margin-top: 2%;
       margin-left: 20%;
+      color: black;
      }
      .read_more4{
       padding: 5px;
-      background-color: rgba(255, 0, 0, 0.5);
+      background-color: rgba(255, 255, 255, 0.7);
       margin-top: 2%;
       margin-left: 30%;
+      color: black;
      }
     
     
