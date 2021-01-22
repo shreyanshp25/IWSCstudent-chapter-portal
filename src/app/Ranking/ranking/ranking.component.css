@@ -1,5 +1,9 @@
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
+
+.growless { transition: all .4s ease-in-out; }
+.growless:hover { transform: scale(0.9); }
+
 body{
   background-color: black;
 }
