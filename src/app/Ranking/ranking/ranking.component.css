@@ -216,6 +216,10 @@ body{
    
   }
   
+  /* pie chart */
+  a .canvasjs-chart-credit{
+    display: none;
+  }
   /* RESPONSİVE */
   /* tablets */
   @media (max-width: 990px){
