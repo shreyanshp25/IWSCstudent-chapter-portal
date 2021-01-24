@@ -5,6 +5,7 @@ import { LoginPageComponent } from './homeSec/login-page/login-page.component';
 import { ScComponent } from './homeSec/sc/sc.component';
 import { TeamComponent } from './Team/team/team.component';
 import { MembersComponent } from './Members/members/members.component'
+import { RankingComponent } from './Ranking/ranking/ranking.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'studentchapters', component: ScComponent},
   {path: 'login-page', component: LoginPageComponent},
   {path: 'teams', component: TeamComponent},
+  {path: 'rankings', component: RankingComponent},
   {path: 'members', component: MembersComponent}
 ];
 

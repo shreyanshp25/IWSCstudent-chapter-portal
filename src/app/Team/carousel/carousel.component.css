@@ -6,8 +6,23 @@
     position:absolute;
     bottom:10%;
     font-family:Montserrat,Helvetica,sans-serif;
-    
   }  
+
+  .carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: opacity .3s ease;
+}
   .carousel-caption h2{
     font-size: 500%;
     text-transform: uppercase;

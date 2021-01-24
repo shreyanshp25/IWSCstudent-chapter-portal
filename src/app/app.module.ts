@@ -11,7 +11,6 @@ import { AboutUsComponent } from './homeSec/about-us/about-us.component';
 import { ScComponent } from './homeSec/sc/sc.component';
 import { NewScFormComponent } from './homeSec/new-sc-form/new-sc-form.component';
 import { CarouselComponent } from './Team/carousel/carousel.component';
-import { TeamStatsComponent } from './Team/team-stats/team-stats.component';
 import { TeamComponent } from './Team/team/team.component';
 import { MembersComponent } from './Members/members/members.component';
 import { SignupComponent } from './homeSec/signup/signup.component';
@@ -20,6 +19,7 @@ import { SocialmediaComponent } from './Team/socialmedia/socialmedia.component';
 import { InternshipComponent } from './homeSec/internship/internship.component';
 import { SocialCarouselComponent } from './Team/social-carousel/social-carousel.component';
 import { TestimonyComponent } from './homeSec/testimony/testimony.component';
+import { RankingComponent } from './Ranking/ranking/ranking.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,6 @@ import { TestimonyComponent } from './homeSec/testimony/testimony.component';
     FooterComponent,
     NewScFormComponent,
     CarouselComponent,
-    TeamStatsComponent,
     TeamComponent,
     MembersComponent,
     SignupComponent,
@@ -38,6 +37,7 @@ import { TestimonyComponent } from './homeSec/testimony/testimony.component';
     InternshipComponent,
     SocialCarouselComponent,
     TestimonyComponent,
+    RankingComponent,
   ],
   imports: [
     BrowserModule,
