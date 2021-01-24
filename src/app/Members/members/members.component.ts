@@ -11,5 +11,6 @@ export class MembersComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  showFiller = false;
 
 }

@@ -18,6 +18,7 @@ import { SignupComponent } from './homeSec/signup/signup.component';
 import { EventsComponent } from './Team/events/events.component';
 import { SocialmediaComponent } from './Team/socialmedia/socialmedia.component';
 import { InternshipComponent } from './homeSec/internship/internship.component';
+import { TestimonyComponent } from './homeSec/testimony/testimony.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { InternshipComponent } from './homeSec/internship/internship.component';
     EventsComponent,
     SocialmediaComponent,
     InternshipComponent,
+    TestimonyComponent,
   ],
   imports: [
     BrowserModule,

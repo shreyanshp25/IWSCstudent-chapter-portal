@@ -7,6 +7,7 @@ import {MatStepperModule} from '@angular/material/stepper';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatStepperModule,
     ReactiveFormsModule,
     MatBadgeModule,
-    MatTabsModule
+    MatTabsModule,
+    MatSidenavModule
   ],
 })
 

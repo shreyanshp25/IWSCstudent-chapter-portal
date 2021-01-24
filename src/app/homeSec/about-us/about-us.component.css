@@ -34,13 +34,13 @@
     .projects{
         position: relative;
         width: 50%;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
     .image {
         display: block;
         width: 100%;
         height: auto;
-      }
+    }
     .overlay{
         position: absolute;
         bottom: 0;
@@ -55,6 +55,10 @@
     .projects:hover .overlay {
         bottom: 100%;
         height: 0;
+    }
+    .projects:hover .image{
+        transform: scale(1.1);
+        transition: transform 0.5s;
     }
     .text {
         color: white;
@@ -165,18 +169,22 @@
       }
     .overlay{
         position: absolute;
-        bottom: 100%;
+        bottom: 0;
         left: 0;
         right: 0;
         background-color: #221e1e87;
         overflow: hidden;
         width: 100%;
-        height: 0;
+        height: 100%;
         transition: .5s ease;
     }   
     .projects:hover .overlay {
-        bottom: 0;
-        height: 100%;
+        bottom: 100%;
+        height: 0;
+    }
+    .projects:hover .image{
+        transform: scale(1.1);
+        transition: transform 0.5s;
     }
     .text {
         color: white;
@@ -284,18 +292,22 @@
       }
     .overlay{
         position: absolute;
-        bottom: 100%;
+        bottom: 0;
         left: 0;
         right: 0;
         background-color: #221e1e87;
         overflow: hidden;
         width: 100%;
-        height: 0;
+        height: 100%;
         transition: .5s ease;
     }   
     .projects:hover .overlay {
-        bottom: 0;
-        height: 100%;
+        bottom: 100%;
+        height: 0;
+    }
+    .projects:hover .image{
+        transform: scale(1.1);
+        transition: transform 0.7s;
     }
     .text {
         color: white;
