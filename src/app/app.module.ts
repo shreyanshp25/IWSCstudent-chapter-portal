@@ -20,6 +20,7 @@ import { InternshipComponent } from './homeSec/internship/internship.component';
 import { SocialCarouselComponent } from './Team/social-carousel/social-carousel.component';
 import { TestimonyComponent } from './homeSec/testimony/testimony.component';
 import { RankingComponent } from './Ranking/ranking/ranking.component';
+import { AchievementsComponent } from './Members/achievements/achievements.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { RankingComponent } from './Ranking/ranking/ranking.component';
     SocialCarouselComponent,
     TestimonyComponent,
     RankingComponent,
+    AchievementsComponent,
   ],
   imports: [
     BrowserModule,

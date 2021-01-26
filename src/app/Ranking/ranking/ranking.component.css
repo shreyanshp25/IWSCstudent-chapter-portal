@@ -83,16 +83,6 @@ body{
   /* background: linear-gradient(to top, #95B7A2,#b4facf); */;
   }
   
-  .flexcardNumber:after {
-    content: '';
-    width: 25px;
-    height: 40px;
-    position: absolute;
-    left: -25px;
-    bottom: -40px;
-    border-radius: 50px 0px 0px 50px;
-    z-index: -1;
-  }
   
   .flex {
     display: flex;
@@ -104,6 +94,7 @@ body{
   img.flexcardimgItem {
     width: 70%;
     height: 100%;
+    margin-bottom: 15px;
   }
   
   /* GREEN CARD */
@@ -114,20 +105,14 @@ body{
   }
   
   .flexcardNumberGreen {
-    background:#b4facf;
+    background:#c1b4fa;
     background: -webkit-linear-gradient(right, #FCFCFC,#b4facf);
     background: -moz-linear-gradient(right, #FCFCFC,#b4facf);
     background: linear-gradient(to left, #FCFCFC,#b4facf);
     box-shadow: 0px 2px 2px #b4facf;
   }
   
-  .flexcardNumberGreen:before {
-    background: #b4facf;
-  }
   
-  .flexcardNumberGreen:after {
-    background: #b4facf;
-  }
   
   /* BLUE CARD */
   
@@ -144,19 +129,12 @@ body{
     box-shadow: 0px 2px 2px #fdbd5c;
   }
   
-  .flexcardNumberBlue:before {
-    background: #fdbd5c;
-  }
-  
-  .flexcardNumberBlue:after {
-    background: #fdbd5c;
-  }
   
   /* ORANGE CARD */
   
   .flexcardOrange {
     background: rgba(255, 255, 255, 0.8);
-   box-shadow: 4px -2px 1px #ec1a48 ;
+   box-shadow: 4px 8px 1px #ec1a48 ;
   }
   
   .flexcardNumberOrange {
@@ -167,13 +145,6 @@ body{
     box-shadow: 0px 2px 2px #ec1a48 ;
   }
   
-  .flexcardNumberOrange:before {
-    background: #ec1a48 ;
-  }
-  
-  .flexcardNumberOrange:after {
-    background: #ec1a48 ;
-  }
   
   /* PİNK CARD */
   
@@ -193,22 +164,21 @@ body{
   }
   
   
- 
+ /* know more button ----- */
   .read_more{
    background: rgba(0, 0, 0, 0.8);
    border: black;
    padding: 5px;
-   z-index: 10;
-   position: absolute;
-   margin-top: 2%;
+   position: relative;
+   width: 90px;
+   margin-top: 5px;
   }
   .read_more4{
     background: rgba(0, 0, 0, 0.8);
    border: black;
    padding: 5px;
-   z-index: 10;
-   position: absolute;
-   margin-top: 8%;
+   width: 90px;
+   position: relative;
   }
   .read_more:hover{
    background: rgba(0, 0, 0, 0.6);
