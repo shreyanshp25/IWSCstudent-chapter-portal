@@ -8,7 +8,6 @@ import { MembersComponent } from './Members/members/members.component'
 import { RankingComponent } from './Ranking/ranking/ranking.component';
 import { AchievementsComponent } from './Members/achievements/achievements.component';
 
-
 const routes: Routes = [
   {path: 'home', component:AboutUsComponent},
   {path: 'studentchapters', component: ScComponent},
